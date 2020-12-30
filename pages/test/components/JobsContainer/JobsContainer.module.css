@@ -1,0 +1,22 @@
+.JobsContainer{
+    width: 80%;
+    min-height: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.JobsContainer .message{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+
+    .JobsContainer{
+        justify-content: center;
+    }
+}

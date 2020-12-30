@@ -1,0 +1,68 @@
+.HeaderMenu {
+    height: 100%;
+}
+
+.HeaderMenu ul {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.HeaderMenu ul li {
+    min-width: 60px;
+    margin: 0 20px;
+
+}
+
+.HeaderMenu ul a {
+    text-decoration: none;
+
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #aaa;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.HeaderMenu ul a:hover {
+    color: #fff;
+
+}
+
+@media (max-width: 750px) {
+
+    .HeaderMenu ul a {
+        font-size: 12px;
+    }
+
+    .HeaderMenu ul li {
+        min-width: 40px;
+    }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .HeaderMenu ul a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .HeaderMenu ul li {
+        margin: 0 10px;
+
+    }
+}

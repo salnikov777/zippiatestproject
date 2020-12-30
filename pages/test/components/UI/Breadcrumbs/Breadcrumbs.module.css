@@ -1,0 +1,43 @@
+.Breadcrumbs{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.Breadcrumbs a{
+    text-decoration: none;
+}
+
+.Breadcrumbs .standard{
+    color: #7d878f;
+    font-size: 14px;
+    letter-spacing: .3px;
+    line-height: 15px;
+    transition: color .3s ease-in-out;
+}
+
+.Breadcrumbs .standard:hover{
+    color: #3174ee;
+
+}
+
+@media (max-width: 900px) {
+
+    .Breadcrumbs{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .Breadcrumbs .standard{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .Breadcrumbs .standard{
+        display: none;
+    }
+}
+

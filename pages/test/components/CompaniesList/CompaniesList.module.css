@@ -1,0 +1,65 @@
+.CompaniesList{
+    width: 80%;
+    margin: 20px;
+
+    flex-grow: 1;
+
+    background-color: #fff;
+    border: 1px solid #000;
+    overflow-y: scroll;
+
+    transition: all .3s ease;
+}
+
+.CompaniesList:hover{
+    background-color: #ffffe0;
+    box-shadow: 9px 6px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.CompaniesList p{
+    width: 100%;
+    padding: 10px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.CompaniesList ul{
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.CompaniesList ul li{
+    font-size: 18px;
+
+    padding: 10px;
+
+    border-bottom: 1px solid #0000ff;
+    cursor: pointer;
+
+    transition: all .2s ease;
+}
+
+.CompaniesList ul li:last-child{
+    border-bottom: none;
+}
+
+.CompaniesList ul li:hover{
+    box-shadow: 9px 6px 5px 0px rgba(50, 50, 50, 0.5);
+    color: #2c2c2c;
+    background-color: #fff;
+}
+
+@media (max-width: 600px) {
+
+    .CompaniesList{
+        width: 95%;
+    }
+
+    .CompaniesList ul li{
+        font-size: 14px;
+    }
+
+}

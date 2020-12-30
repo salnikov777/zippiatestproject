@@ -1,0 +1,25 @@
+.Input{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Input .type1{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #bac4da;
+    background-color: #fff;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    height: 32px;
+    padding: 6px 12px;
+
+
+}
+
+@media (max-width: 900px) {
+
+    .Input {
+        width: 60%;
+    }
+}
